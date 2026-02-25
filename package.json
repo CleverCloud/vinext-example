@@ -1,0 +1,21 @@
+{
+  "name": "vinext",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vinext dev",
+    "build": "vinext build",
+    "start": "vinext start -H 0.0.0.0 -p 8080"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "vinext": "^0.0.5"
+  }
+}
