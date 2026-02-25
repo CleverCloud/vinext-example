@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vinext dev",
     "build": "vinext build",
+    "postinstall": "bun run build",
     "start": "vinext start -H 0.0.0.0 -p 8080"
   },
   "devDependencies": {
