@@ -39,7 +39,7 @@ export default function Home() {
       <section style={styles.stack}>
         <h2 style={styles.stackTitle}>Stack</h2>
         <div style={styles.pills}>
-          {["vinext 0.0.5", "Vite 7", "React 19", "Bun 1.3", "Node.js"].map(
+          {["Vinext", "Vite", "React", "Bun", "Node.js"].map(
             (item) => (
               <span key={item} style={styles.pill}>
                 {item}
